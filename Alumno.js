@@ -1,17 +1,11 @@
 import { useState } from 'react';
-import {View, Text, Image, StyleSheet} from 'react-native';
+import {View, Text, Image, StyleSheet, Pressable} from 'react-native';
 
-export function Alumno({nombre, matricula, foto}){
-    const [registro, setRegistro] = useState(0);
+export function Alumno({nombre, matricula, foto, registro}){
     
-    
-    function cambiarRegistro(){
-        setRegistro = registro + 1 ; // revisar en el break
-    }
-
     return(
         <View>
-        <Text>{registro + 1}</Text>
+        <Text>{registro}</Text>
         <Image style={styles.tinyLogo}
         source={{
             uri: foto,
