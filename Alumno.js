@@ -4,25 +4,33 @@ import {View, Text, Image, StyleSheet, Pressable} from 'react-native';
 export function Alumno({nombre, matricula, foto, registro}){
     
     return(
-        <View>
-        <Text>{registro}</Text>
+        <View style={styles.container}>
+        
         <Image style={styles.tinyLogo}
         source={{
             uri: foto,
         }}/>
-        <Text>{nombre}</Text>
+        <Text>{nombre} - {matricula}</Text>
         
-        <Text>{matricula}</Text>
         </View>
     );
 }
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
+        display: 'flex',
+        flexDirection: 'row',
         justifyContent: 'center',
+        alignItems: 'center',
+        flexWrap: 'wrap',
+        backgroundColor: '#fff',
+        borderRadius: 20,
+        borderColor: 'pink',
+        borderWidth: 2,
+        marginTop: 10,
+        marginBottom: 10,
+        marginRight: 15,
+        marginLeft: 15
     },
     tinyLogo: {
         width: 200,

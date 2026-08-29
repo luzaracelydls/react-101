@@ -1,0 +1,21 @@
+{
+    "alumnos":[
+  { "nombre": "DANIEL ALEJANDRO BARBOSA RAMIREZ", "matricula": "2173469", "foto": "", "activo": false },
+  { "nombre": "CARLOS ADRIAN BARRAGAN SORIANO", "matricula": "2177525", "foto": "" , "activo": true},
+  { "nombre": "VICTOR MANUEL COLIN SANCHEZ", "matricula": "2177628", "foto": "", "activo": false },
+  { "nombre": "MIGUEL ANGEL DE LEON GARCIA", "matricula": "2121321", "foto": "" , "activo": false},
+  { "nombre": "EMILIANO ESPINOZA LUJAN", "matricula": "2043329", "foto": "", "activo": false },
+  { "nombre": "ALDO GABRIEL GOMEZ CANIZALES", "matricula": "1923886", "foto": "" , "activo": false},
+  { "nombre": "CARLOS HERNANDEZ GARZA", "matricula": "2121020", "foto": "", "activo": false },
+  { "nombre": "MAURICIO LOPEZ GARCIA", "matricula": "2068543", "foto": "", "activo": false },
+  { "nombre": "LUIS ENRIQUE MATTA GONZALEZ", "matricula": "2114428", "foto": "" , "activo": false},
+  { "nombre": "JORGE JARED RAMIREZ GONZALEZ", "matricula": "2055454", "foto": "" , "activo": true},
+  { "nombre": "WILLIAM RINCON PEREZ", "matricula": "1823198", "foto": "" , "activo": true},
+  { "nombre": "JUAN HUMBERTO RODRIGUEZ", "matricula": "1920904", "foto": "" , "activo": true},
+  { "nombre": "IVANNA RODRIGUEZ ROSALES", "matricula": "2111651", "foto": "", "activo": false },
+  { "nombre": "ALFONSO LEONARDO RODRIGUEZ RUIZ", "matricula": "2070109", "foto": "", "activo": false },
+  { "nombre": "NAHOMI SALAS NUÑEZ", "matricula": "2095434", "foto": "", "activo": false },
+  { "nombre": "REBECA SANCHEZ RODRIGUEZ", "matricula": "2043917", "foto": "" , "activo": true},
+  { "nombre": "CARLOS JOSUE SOSA LOPEZ", "matricula": "2091875", "foto": "", "activo": false }
+]
+}
