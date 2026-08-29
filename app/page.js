@@ -2,6 +2,12 @@
 import { useState } from "react";
 import Alumno from "./alumno";
 
+const alumnos = [
+  { id: 1, nombre: 'Ana' },
+  { id: 2, nombre: 'Luis' },
+  { id: 3, nombre: 'María' },
+];
+
 export default function Home() {
 
   const [mensaje, setMensaje] = useState('');
@@ -16,7 +22,9 @@ export default function Home() {
       <button onClick={() => cambiarMensaje()} style={estilos.boton}>Cambia mensaje</button>
       <p>Mensaje: {mensaje}</p>
 
-      <Alumno></Alumno>
+      {alumnos.map((alumno) => (
+        <Alumno key={alumno.id} nombre={alumno.nombre} />
+      ))}
     </div>
   );
 }
