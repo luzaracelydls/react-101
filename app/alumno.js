@@ -1,7 +1,7 @@
 
 
-export default function Alumno(){
+export default function Alumno({ nombre }){
     return(
-        <div>Componente alumno</div>
+        <div>Componente alumno: {nombre}</div>
     )
 }
