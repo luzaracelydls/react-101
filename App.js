@@ -4,6 +4,7 @@ import { Alumno } from './Alumno';
 //import { Producto } from './Producto';
 import * as alumnos from './alumnos.json';
 import { Navegacion } from './Navegacion';
+import {AgregarAlumno} from './AgregarAlumno';
 
 export default function App() {
   
@@ -14,19 +15,24 @@ export default function App() {
     <View style={styles.wrapper}>
       <StatusBar style="auto" />
     <View>
-      <Text>Texto de Encabezado</Text>
+      <Text>Interacciones en React Native</Text>
     </View>
-    <View style={styles.container}>
+
+    <View>
+      
+      <AgregarAlumno></AgregarAlumno>
+    </View>
+    {/* <View style={styles.container}>
     
     {
       alumnosArray.map((alumno, index) => (
         
-        <Alumno registro={index} nombre={index + " "   + alumno.nombre } matricula={alumno.matricula} foto={alumno.foto}></Alumno>
+        <Alumno key={alumno.matricula}  registro={index} nombre={index + " "   + alumno.nombre } matricula={alumno.matricula} foto={alumno.foto}></Alumno>
       ))
     }
     
-    </View>
-    <Navegacion></Navegacion>
+    </View> */}
+    {/* <Navegacion></Navegacion> */}
     </View>
     </ScrollView>
   );

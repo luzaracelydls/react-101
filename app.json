@@ -2,12 +2,17 @@
   "expo": {
     "name": "mi-youtube-js",
     "slug": "mi-youtube-js",
+    "scheme": "mi-youtube-js",
+    "experiments": {
+      "typedRoutes": true
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.luzaracelydls.mi-youtube-js"
     },
     "android": {
       "adaptiveIcon": {
@@ -19,6 +24,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar"
+    ]
   }
 }
