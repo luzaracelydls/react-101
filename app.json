@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "mi-app",
+    "slug": "mi-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": ["ios", "android", "web"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {}
+  }
+}
